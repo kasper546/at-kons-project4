@@ -1,6 +1,6 @@
 <template>
   <div>
-    <DataTable :value="rows" dataKey="id" paginator rows="10">
+    <DataTable :value="rows" dataKey="id" rows="20">
       <Column field="message" header="Сообщения"></Column>
     </DataTable>
   </div>
